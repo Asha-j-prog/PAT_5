@@ -1,0 +1,12 @@
+from functools import reduce
+
+    numbers = [2, 4, 6, 1, 3, 5]
+
+    results = reduce (lambda a,b: a*b, numbers)
+    print(results)
+
+
+C:\Users\Asha\PycharmProjects\PythonProject\.venv\Scripts\python.exe "C:\Users\Asha\PycharmProjects\PythonProject\PythonLearning\lambda_Age\Product of lists.py" 
+720
+
+Process finished with exit code 0
