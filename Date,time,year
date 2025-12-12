@@ -1,0 +1,11 @@
+from datetime import datetime
+
+extract_date = lambda d : (d.year, d.month, d.day)
+dt = datetime(2025, 12, 15)
+
+print(extract_date(dt))
+
+C:\Users\Asha\PycharmProjects\PythonProject\.venv\Scripts\python.exe C:\Users\Asha\PycharmProjects\PythonProject\PythonLearning\lambda_Age\Day,year,month.py 
+(2025, 12, 15)
+
+Process finished with exit code 0
