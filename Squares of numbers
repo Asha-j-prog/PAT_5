@@ -1,0 +1,7 @@
+numbers = [10,8, 6, 4, 2]
+
+
+even = [a**2 for a in numbers if(lambda n: n%2 == 0)(a)]
+print(even)
+
+[4, 16, 36, 64]
