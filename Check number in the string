@@ -1,0 +1,13 @@
+is_number = lambda s: s.isdigit()
+
+print(is_number("123"))  
+print(is_number("12a"))
+print(is_number("45.6"))
+
+
+C:\Users\Asha\PycharmProjects\PythonProject\.venv\Scripts\python.exe "C:\Users\Asha\PycharmProjects\PythonProject\PythonLearning\lambda_Age\Check numbers in the string.py" 
+True
+False
+False
+
+Process finished with exit code 0
