@@ -1,0 +1,16 @@
+people = [
+    {"name": "Asha", "age": 25},
+    {"name": "John", "age": 16},
+    {"name": "Kumar", "age": 30},
+    {"name": "Rita", "age": 14}
+]
+
+adults = list(filter(lambda p: p["age"] >= 18, people))
+adults_names = list(map(lambda p: p["name"], adults))
+print(adults_names)
+
+
+C:\Users\Asha\PycharmProjects\PythonProject\.venv\Scripts\python.exe C:\Users\Asha\PycharmProjects\PythonProject\PythonLearning\lambda_Age\name.py 
+['Asha', 'Kumar']
+
+Process finished with exit code 0
