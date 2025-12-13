@@ -1,0 +1,12 @@
+fib_n = lambda n: n if n <= 1 else fib_n(n-1) + fib_n(n-2)
+
+
+n_terms = 10
+series_lambda = [fib_n(i) for i in range(n_terms)]
+print(f"Fibonacci series using recursive lambda: {series_lambda}")
+
+
+C:\Users\Asha\PycharmProjects\PythonProject\.venv\Scripts\python.exe "C:\Users\Asha\PycharmProjects\PythonProject\PythonLearning\lambda_Age\Fibonnaci series.py" 
+Fibonacci series using recursive lambda: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+
+Process finished with exit code 0
